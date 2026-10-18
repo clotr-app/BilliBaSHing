@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+function read(file){return fs.readFileSync(file,'utf8').split(/\r?\n/).filter(Boolean).map((line,i)=>{try{return JSON.parse(line)}catch(e){throw Error(`${file}:${i+1}: ${e.message}`)}})}
+function key(x){const s=x.span||[x.start,x.end];return `${x.kind}\0${s[0]}\0${s[1]}`;}
+function baseline(text){const out=[],rules=[['aws_access_key',/\bAKIA[0-9A-Z]{16}\b/g],['credit_card',/\b(?:\d[ -]?){13,19}\b/g],['email',/\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi]];const cp=n=>Array.from(text.slice(0,n)).length;for(const[k,re]of rules)for(const m of text.matchAll(re))out.push({kind:k,start:cp(m.index),end:cp(m.index+m[0].length)});return out;}
+function score(g,p){let tp=0,fp=0,fn=0;for(const x of p)g.has(x)?tp++:fp++;for(const x of g)if(!p.has(x))fn++;return[tp,fp,fn,tp+fp?tp/(tp+fp):null,tp+fn?tp/(tp+fn):null];}
+function main(){const args=process.argv.slice(2),base=args.includes('--baseline'),at=args.indexOf('--findings');if(!base&&at<0)throw Error('usage: node score.js --baseline | --findings findings.jsonl');const examples=read(path.join(__dirname,'examples.jsonl')),provided=base?[]:read(args[at+1]),byId=new Map(provided.map(r=>[r.id,r.findings||[]]));const kinds=new Map(),styles=new Map();for(const e of examples){const p=base?baseline(e.text):(byId.get(e.id)||[]),g=e.expect;const kset=new Set([...g.map(x=>x.kind),...p.map(x=>x.kind)]);for(const k of kset){if(!kinds.has(k))kinds.set(k,[new Set(),new Set()]);const[a,b]=kinds.get(k);for(const x of g.filter(x=>x.kind===k))a.add(`${e.id}\0${key(x)}`);for(const x of p.filter(x=>x.kind===k))b.add(`${e.id}\0${key(x)}`);}for(const s of e.style){if(!styles.has(s))styles.set(s,[new Set(),new Set()]);const[a,b]=styles.get(s);for(const x of g)a.add(`${e.id}\0${key(x)}`);for(const x of p)b.add(`${e.id}\0${key(x)}`);}}
+for(const [title,map]of [['Per kind',kinds],['Per style (pooled kinds)',styles]]){console.log(`\n${title}\ngroup\tTP\tFP\tFN\tprecision\trecall`);for(const[name,[g,p]]of [...map].sort(([a],[b])=>a.localeCompare(b))){const[tp,fp,fn,pr,re]=score(g,p);console.log(`${name}\t${tp}\t${fp}\t${fn}\t${pr===null?'n/a':pr.toFixed(3)}\t${re===null?'n/a':re.toFixed(3)}`);}}
+}
+main();

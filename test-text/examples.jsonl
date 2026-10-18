@@ -1,0 +1,684 @@
+{"id":"pos-credit_card-01","text":"Example: 4154803511392337","lang":"en","expect":[{"kind":"credit_card","span":[9,25]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-02","text":"For the test form, use 4116 2815 6703 2536.","lang":"en","expect":[{"kind":"credit_card","span":[23,42]}],"style":["digits","spaced","in_sentence"]}
+{"id":"pos-credit_card-03","text":"`439-157-389-519-132-3`","lang":"en","expect":[{"kind":"credit_card","span":[1,22]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-credit_card-04","text":"La muestra ficticia es four zero three six five zero zero one one seven four two five eight four two.","lang":"es","expect":[{"kind":"credit_card","span":[23,100]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-credit_card-05","text":"The parser should find fore sevn fiv fore won zoro won fiv thre sevn fiv nien won siks siks sevn here.","lang":"en","expect":[{"kind":"credit_card","span":[23,96]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-credit_card-06","text":"\n```text\n4 three 7 nine 5 seven 9 six 5 zero 6 five 8 two 4 six\n```","lang":"en","expect":[{"kind":"credit_card","span":[9,63]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-credit_card-07","text":"Copy this made-up value: 4918334087705543","lang":"en","expect":[{"kind":"credit_card","span":[25,41]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-08","text":"Test case value = 4125892438865745","lang":"en","expect":[{"kind":"credit_card","span":[18,34]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-09","text":"I typed 4206858492822015 in the mock form.","lang":"en","expect":[{"kind":"credit_card","span":[8,24]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-10","text":"El formulario de prueba contiene 4027 5553 3351 3996.","lang":"es","expect":[{"kind":"credit_card","span":[33,52]}],"style":["digits","spaced","spanish","in_sentence"]}
+{"id":"pos-credit_card-11","text":"Example: 454-243-595-179-630-4","lang":"en","expect":[{"kind":"credit_card","span":[9,30]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-credit_card-12","text":"For the test form, use four six eight zero four seven seven zero three one three one eight seven five zero.","lang":"en","expect":[{"kind":"credit_card","span":[23,106]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-credit_card-13","text":"`fore fiv eigt eigt thre siks too fiv fiv siks eigt nien sevn eigt nien siks`","lang":"en","expect":[{"kind":"credit_card","span":[1,76]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-credit_card-14","text":"La muestra ficticia es 4 eight 7 eight 4 nine 4 four 8 four 1 eight 6 six 4 four.","lang":"es","expect":[{"kind":"credit_card","span":[23,80]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-credit_card-15","text":"The parser should find 4555964618295107 here.","lang":"en","expect":[{"kind":"credit_card","span":[23,39]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-16","text":"\n```text\n4390058328690662\n```","lang":"en","expect":[{"kind":"credit_card","span":[9,25]}],"style":["digits","code_block"]}
+{"id":"pos-credit_card-17","text":"Copy this made-up value: 4106398175827040","lang":"en","expect":[{"kind":"credit_card","span":[25,41]}],"style":["digits","in_sentence"]}
+{"id":"pos-credit_card-18","text":"Test case value = 4850 6906 1400 9968","lang":"en","expect":[{"kind":"credit_card","span":[18,37]}],"style":["digits","spaced","in_sentence"]}
+{"id":"pos-credit_card-19","text":"I typed 491-801-073-673-111-0 in the mock form.","lang":"en","expect":[{"kind":"credit_card","span":[8,29]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-credit_card-20","text":"El formulario de prueba contiene four five two seven seven three six zero zero six five seven nine zero eight five.","lang":"es","expect":[{"kind":"credit_card","span":[33,114]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-iban-01","text":"Example: DE16844541669193045889","lang":"en","expect":[{"kind":"iban","span":[9,31]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-02","text":"For the test form, use DE78812434703221672391.","lang":"en","expect":[{"kind":"iban","span":[23,45]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-03","text":"`DE936-967-883-189-272-697-43`","lang":"en","expect":[{"kind":"iban","span":[1,29]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-iban-04","text":"La muestra ficticia es DE zero two four zero four eight one zero six three five one two five zero nine one four seven zero.","lang":"es","expect":[{"kind":"iban","span":[23,122]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-iban-05","text":"The parser should find DE thre eigt fore sevn nien nien won won zoro thre sevn won sevn siks thre sevn thre too fore thre here.","lang":"en","expect":[{"kind":"iban","span":[23,121]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-iban-06","text":"\n```text\nDE9 two 3 zero 6 nine 0 zero 9 two 2 six 9 seven 1 six 5 seven 2 nine\n```","lang":"en","expect":[{"kind":"iban","span":[9,78]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-iban-07","text":"Copy this made-up value: DE98435576775727032085","lang":"en","expect":[{"kind":"iban","span":[25,47]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-08","text":"Test case value = DE39069479170837012897","lang":"en","expect":[{"kind":"iban","span":[18,40]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-09","text":"I typed DE45643439576936321779 in the mock form.","lang":"en","expect":[{"kind":"iban","span":[8,30]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-10","text":"El formulario de prueba contiene DE30338081376219551814.","lang":"es","expect":[{"kind":"iban","span":[33,55]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-iban-11","text":"Example: DE207-445-201-768-396-252-18","lang":"en","expect":[{"kind":"iban","span":[9,37]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-iban-12","text":"For the test form, use DE zero eight two five nine five six zero four seven seven two seven seven eight two two four seven one.","lang":"en","expect":[{"kind":"iban","span":[23,126]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-iban-13","text":"`DE fore sevn fore zoro sevn siks sevn nien eigt fore won thre siks fore fore fore too eigt zoro nien`","lang":"en","expect":[{"kind":"iban","span":[1,101]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-iban-14","text":"La muestra ficticia es DE9 seven 3 five 2 one 6 nine 7 zero 4 four 9 two 9 eight 1 five 0 zero.","lang":"es","expect":[{"kind":"iban","span":[23,94]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-iban-15","text":"The parser should find DE90601120207981866762 here.","lang":"en","expect":[{"kind":"iban","span":[23,45]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-16","text":"\n```text\nDE24625360350602164751\n```","lang":"en","expect":[{"kind":"iban","span":[9,31]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-iban-17","text":"Copy this made-up value: DE89589186529342866833","lang":"en","expect":[{"kind":"iban","span":[25,47]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-18","text":"Test case value = DE39916639737492304273","lang":"en","expect":[{"kind":"iban","span":[18,40]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-iban-19","text":"I typed DE126-432-578-553-688-260-09 in the mock form.","lang":"en","expect":[{"kind":"iban","span":[8,36]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-iban-20","text":"El formulario de prueba contiene DE one eight three four nine eight nine nine zero zero one zero one eight one two eight zero zero eight.","lang":"es","expect":[{"kind":"iban","span":[33,136]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-us_ssn-01","text":"Example: 150617125","lang":"en","expect":[{"kind":"us_ssn","span":[9,18]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-02","text":"For the test form, use 256568213.","lang":"en","expect":[{"kind":"us_ssn","span":[23,32]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-03","text":"`378-966-333`","lang":"en","expect":[{"kind":"us_ssn","span":[1,12]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-us_ssn-04","text":"La muestra ficticia es one nine zero zero five zero eight four seven.","lang":"es","expect":[{"kind":"us_ssn","span":[23,68]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-us_ssn-05","text":"The parser should find fiv sevn too nien won too nien sevn siks here.","lang":"en","expect":[{"kind":"us_ssn","span":[23,63]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-us_ssn-06","text":"\n```text\n3 four 4 three 6 four 2 one 0\n```","lang":"en","expect":[{"kind":"us_ssn","span":[9,38]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-us_ssn-07","text":"Copy this made-up value: 235959004","lang":"en","expect":[{"kind":"us_ssn","span":[25,34]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-08","text":"Test case value = 514808384","lang":"en","expect":[{"kind":"us_ssn","span":[18,27]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-09","text":"I typed 233448576 in the mock form.","lang":"en","expect":[{"kind":"us_ssn","span":[8,17]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-10","text":"El formulario de prueba contiene 152788481.","lang":"es","expect":[{"kind":"us_ssn","span":[33,42]}],"style":["digits","spanish","in_sentence"]}
+{"id":"pos-us_ssn-11","text":"Example: 140-648-988","lang":"en","expect":[{"kind":"us_ssn","span":[9,20]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-us_ssn-12","text":"For the test form, use five one nine zero six two three two seven.","lang":"en","expect":[{"kind":"us_ssn","span":[23,65]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-us_ssn-13","text":"`fiv zoro thre too siks sevn fiv nien eigt`","lang":"en","expect":[{"kind":"us_ssn","span":[1,42]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-us_ssn-14","text":"La muestra ficticia es 0 eight 7 seven 9 two 3 six 2.","lang":"es","expect":[{"kind":"us_ssn","span":[23,52]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-us_ssn-15","text":"The parser should find 229841039 here.","lang":"en","expect":[{"kind":"us_ssn","span":[23,32]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-16","text":"\n```text\n405187997\n```","lang":"en","expect":[{"kind":"us_ssn","span":[9,18]}],"style":["digits","code_block"]}
+{"id":"pos-us_ssn-17","text":"Copy this made-up value: 399574612","lang":"en","expect":[{"kind":"us_ssn","span":[25,34]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-18","text":"Test case value = 408155624","lang":"en","expect":[{"kind":"us_ssn","span":[18,27]}],"style":["digits","in_sentence"]}
+{"id":"pos-us_ssn-19","text":"I typed 649-372-640 in the mock form.","lang":"en","expect":[{"kind":"us_ssn","span":[8,19]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-us_ssn-20","text":"El formulario de prueba contiene six zero eight three nine zero six zero seven.","lang":"es","expect":[{"kind":"us_ssn","span":[33,78]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-phone_number-01","text":"Example: 2025550107","lang":"en","expect":[{"kind":"phone_number","span":[9,19]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-02","text":"For the test form, use 2025550168.","lang":"en","expect":[{"kind":"phone_number","span":[23,33]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-03","text":"`202-555-017-5`","lang":"en","expect":[{"kind":"phone_number","span":[1,14]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-phone_number-04","text":"La muestra ficticia es two zero two five five five zero one two nine.","lang":"es","expect":[{"kind":"phone_number","span":[23,68]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-phone_number-05","text":"The parser should find too zoro too fiv fiv fiv zoro won siks eigt here.","lang":"en","expect":[{"kind":"phone_number","span":[23,66]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-phone_number-06","text":"\n```text\n2 zero 2 five 5 five 0 one 8 six\n```","lang":"en","expect":[{"kind":"phone_number","span":[9,41]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-phone_number-07","text":"Copy this made-up value: 2025550100","lang":"en","expect":[{"kind":"phone_number","span":[25,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-08","text":"Test case value = 2025550158","lang":"en","expect":[{"kind":"phone_number","span":[18,28]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-09","text":"I typed 2025550195 in the mock form.","lang":"en","expect":[{"kind":"phone_number","span":[8,18]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-10","text":"El formulario de prueba contiene 2025550113.","lang":"es","expect":[{"kind":"phone_number","span":[33,43]}],"style":["digits","spanish","in_sentence"]}
+{"id":"pos-phone_number-11","text":"Example: 202-555-018-6","lang":"en","expect":[{"kind":"phone_number","span":[9,22]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-phone_number-12","text":"For the test form, use two zero two five five five zero one four five.","lang":"en","expect":[{"kind":"phone_number","span":[23,69]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-phone_number-13","text":"`too zoro too fiv fiv fiv zoro won fiv eigt`","lang":"en","expect":[{"kind":"phone_number","span":[1,43]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-phone_number-14","text":"La muestra ficticia es 2 zero 2 five 5 five 0 one 8 seven.","lang":"es","expect":[{"kind":"phone_number","span":[23,57]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-phone_number-15","text":"The parser should find 2025550147 here.","lang":"en","expect":[{"kind":"phone_number","span":[23,33]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-16","text":"\n```text\n2025550106\n```","lang":"en","expect":[{"kind":"phone_number","span":[9,19]}],"style":["digits","code_block"]}
+{"id":"pos-phone_number-17","text":"Copy this made-up value: 2025550161","lang":"en","expect":[{"kind":"phone_number","span":[25,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-18","text":"Test case value = 2025550150","lang":"en","expect":[{"kind":"phone_number","span":[18,28]}],"style":["digits","in_sentence"]}
+{"id":"pos-phone_number-19","text":"I typed 202-555-016-4 in the mock form.","lang":"en","expect":[{"kind":"phone_number","span":[8,21]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-phone_number-20","text":"El formulario de prueba contiene two zero two five five five zero one three six.","lang":"es","expect":[{"kind":"phone_number","span":[33,79]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-email-01","text":"Example: sample9119@example.org","lang":"en","expect":[{"kind":"email","span":[9,31]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-02","text":"For the test form, use sample8383@example.org.","lang":"en","expect":[{"kind":"email","span":[23,45]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-03","text":"`sample88@example.org`","lang":"en","expect":[{"kind":"email","span":[1,21]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-04","text":"La muestra ficticia es sample9187@example.org.","lang":"es","expect":[{"kind":"email","span":[23,45]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-email-05","text":"The parser should find sample517@example.org here.","lang":"en","expect":[{"kind":"email","span":[23,44]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-06","text":"\n```text\nsample3795@example.org\n```","lang":"en","expect":[{"kind":"email","span":[9,31]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-email-07","text":"Copy this made-up value: sample677@example.org","lang":"en","expect":[{"kind":"email","span":[25,46]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-08","text":"Test case value = sample4460@example.com","lang":"en","expect":[{"kind":"email","span":[18,40]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-09","text":"I typed sample9121@example.org in the mock form.","lang":"en","expect":[{"kind":"email","span":[8,30]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-10","text":"El formulario de prueba contiene sample5480@example.com.","lang":"es","expect":[{"kind":"email","span":[33,55]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-email-11","text":"Example: sample3118@example.org","lang":"en","expect":[{"kind":"email","span":[9,31]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-12","text":"For the test form, use sample5725@example.com.","lang":"en","expect":[{"kind":"email","span":[23,45]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-13","text":"`sample9483@example.org`","lang":"en","expect":[{"kind":"email","span":[1,23]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-14","text":"La muestra ficticia es sample8104@example.com.","lang":"es","expect":[{"kind":"email","span":[23,45]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-email-15","text":"The parser should find sample5917@example.org here.","lang":"en","expect":[{"kind":"email","span":[23,45]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-16","text":"\n```text\nsample2458@example.org\n```","lang":"en","expect":[{"kind":"email","span":[9,31]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-email-17","text":"Copy this made-up value: sample9267@example.com","lang":"en","expect":[{"kind":"email","span":[25,47]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-18","text":"Test case value = sample3591@example.org","lang":"en","expect":[{"kind":"email","span":[18,40]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-19","text":"I typed sample9021@example.org in the mock form.","lang":"en","expect":[{"kind":"email","span":[8,30]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-email-20","text":"El formulario de prueba contiene sample9578@example.org.","lang":"es","expect":[{"kind":"email","span":[33,55]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-address-01","text":"8842 Imaginary Quay, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[0,40]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-02","text":"For the test form, use 6149 Fictional Way, Testville, ZZ 00000.","lang":"en","expect":[{"kind":"address","span":[23,62]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-03","text":"`1440 Fable Crescent, Testville, ZZ 00000`","lang":"en","expect":[{"kind":"address","span":[1,41]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-04","text":"La muestra ficticia es 7909 Imaginary Quay, Testville, ZZ 00000.","lang":"es","expect":[{"kind":"address","span":[23,63]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-address-05","text":"The parser should find 1759 Nowhere Parade, Testville, ZZ 00000 here.","lang":"en","expect":[{"kind":"address","span":[23,63]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-06","text":"\n```text\n7475 Fictional Way, Testville, ZZ 00000\n```","lang":"en","expect":[{"kind":"address","span":[9,48]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-address-07","text":"Copy this made-up value: 2572 Example Loop, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[25,63]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-08","text":"Test case value = 5323 Example Loop, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[18,56]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-09","text":"I typed 8564 Imaginary Quay, Testville, ZZ 00000 in the mock form.","lang":"en","expect":[{"kind":"address","span":[8,48]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-10","text":"El formulario de prueba contiene 1323 Nowhere Parade, Testville, ZZ 00000.","lang":"es","expect":[{"kind":"address","span":[33,73]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-address-11","text":"7726 Nowhere Parade, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[0,40]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-12","text":"For the test form, use 6161 Fable Crescent, Testville, ZZ 00000.","lang":"en","expect":[{"kind":"address","span":[23,63]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-13","text":"`4136 Example Loop, Testville, ZZ 00000`","lang":"en","expect":[{"kind":"address","span":[1,39]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-14","text":"La muestra ficticia es 2055 Nowhere Parade, Testville, ZZ 00000.","lang":"es","expect":[{"kind":"address","span":[23,63]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-address-15","text":"The parser should find 4358 Fictional Way, Testville, ZZ 00000 here.","lang":"en","expect":[{"kind":"address","span":[23,62]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-16","text":"\n```text\n9069 Fictional Way, Testville, ZZ 00000\n```","lang":"en","expect":[{"kind":"address","span":[9,48]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-address-17","text":"Copy this made-up value: 7320 Fable Crescent, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[25,65]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-18","text":"Test case value = 5780 Imaginary Quay, Testville, ZZ 00000","lang":"en","expect":[{"kind":"address","span":[18,58]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-19","text":"I typed 3862 Fictional Way, Testville, ZZ 00000 in the mock form.","lang":"en","expect":[{"kind":"address","span":[8,47]}],"style":["digits","spaced","mixed","in_sentence"]}
+{"id":"pos-address-20","text":"El formulario de prueba contiene 7179 Nowhere Parade, Testville, ZZ 00000.","lang":"es","expect":[{"kind":"address","span":[33,73]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-es_dni-01","text":"Example: 87131353Q","lang":"en","expect":[{"kind":"es_dni","span":[9,18]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-02","text":"For the test form, use 16071652B.","lang":"en","expect":[{"kind":"es_dni","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-03","text":"`875-362-04K`","lang":"en","expect":[{"kind":"es_dni","span":[1,12]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_dni-04","text":"La muestra ficticia es six six three six zero six zero seven H.","lang":"es","expect":[{"kind":"es_dni","span":[23,62]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-es_dni-05","text":"The parser should find zoro nien thre too too sevn siks won X here.","lang":"en","expect":[{"kind":"es_dni","span":[23,61]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-es_dni-06","text":"\n```text\n6 two 9 four 4 four 3 four N\n```","lang":"en","expect":[{"kind":"es_dni","span":[9,37]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-es_dni-07","text":"Copy this made-up value: 74206723Y","lang":"en","expect":[{"kind":"es_dni","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-08","text":"Test case value = 43317159V","lang":"en","expect":[{"kind":"es_dni","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-09","text":"I typed 08354214Q in the mock form.","lang":"en","expect":[{"kind":"es_dni","span":[8,17]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-10","text":"El formulario de prueba contiene 48618815N.","lang":"es","expect":[{"kind":"es_dni","span":[33,42]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-es_dni-11","text":"Example: 506-690-30F","lang":"en","expect":[{"kind":"es_dni","span":[9,20]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_dni-12","text":"For the test form, use four zero one zero eight eight three six X.","lang":"en","expect":[{"kind":"es_dni","span":[23,65]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-es_dni-13","text":"`too fiv eigt fiv zoro siks siks sevn R`","lang":"en","expect":[{"kind":"es_dni","span":[1,39]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-es_dni-14","text":"La muestra ficticia es 8 eight 1 three 4 zero 5 three P.","lang":"es","expect":[{"kind":"es_dni","span":[23,55]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-es_dni-15","text":"The parser should find 93818880V here.","lang":"en","expect":[{"kind":"es_dni","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-16","text":"\n```text\n16514230T\n```","lang":"en","expect":[{"kind":"es_dni","span":[9,18]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-es_dni-17","text":"Copy this made-up value: 91357333E","lang":"en","expect":[{"kind":"es_dni","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-18","text":"Test case value = 93613329V","lang":"en","expect":[{"kind":"es_dni","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_dni-19","text":"I typed 310-338-10W in the mock form.","lang":"en","expect":[{"kind":"es_dni","span":[8,19]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_dni-20","text":"El formulario de prueba contiene four eight two eight three three three one Y.","lang":"es","expect":[{"kind":"es_dni","span":[33,77]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-es_nie-01","text":"Example: X1606464Y","lang":"en","expect":[{"kind":"es_nie","span":[9,18]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-02","text":"For the test form, use Y0647472J.","lang":"en","expect":[{"kind":"es_nie","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-03","text":"`Z873-651-6V`","lang":"en","expect":[{"kind":"es_nie","span":[1,12]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_nie-04","text":"La muestra ficticia es Z eight two one two eight nine seven Q.","lang":"es","expect":[{"kind":"es_nie","span":[23,61]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-es_nie-05","text":"The parser should find Y nien fore zoro zoro sevn eigt fore P here.","lang":"en","expect":[{"kind":"es_nie","span":[23,61]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-es_nie-06","text":"\n```text\nY three 8 five 4 four 4 nine P\n```","lang":"en","expect":[{"kind":"es_nie","span":[9,39]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-es_nie-07","text":"Copy this made-up value: X2982814J","lang":"en","expect":[{"kind":"es_nie","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-08","text":"Test case value = Y3035603P","lang":"en","expect":[{"kind":"es_nie","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-09","text":"I typed Z1763283Q in the mock form.","lang":"en","expect":[{"kind":"es_nie","span":[8,17]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-10","text":"El formulario de prueba contiene X6917202K.","lang":"es","expect":[{"kind":"es_nie","span":[33,42]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-es_nie-11","text":"Example: X398-588-8B","lang":"en","expect":[{"kind":"es_nie","span":[9,20]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_nie-12","text":"For the test form, use Z eight zero one zero nine seven one F.","lang":"en","expect":[{"kind":"es_nie","span":[23,61]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-es_nie-13","text":"`Z sevn siks eigt fiv zoro fiv nien M`","lang":"en","expect":[{"kind":"es_nie","span":[1,37]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-es_nie-14","text":"La muestra ficticia es Z one 3 seven 9 three 4 two Z.","lang":"es","expect":[{"kind":"es_nie","span":[23,52]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-es_nie-15","text":"The parser should find X8313325K here.","lang":"en","expect":[{"kind":"es_nie","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-16","text":"\n```text\nY7215693D\n```","lang":"en","expect":[{"kind":"es_nie","span":[9,18]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-es_nie-17","text":"Copy this made-up value: X2188595F","lang":"en","expect":[{"kind":"es_nie","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-18","text":"Test case value = Z1344434C","lang":"en","expect":[{"kind":"es_nie","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-es_nie-19","text":"I typed X268-167-2X in the mock form.","lang":"en","expect":[{"kind":"es_nie","span":[8,19]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-es_nie-20","text":"El formulario de prueba contiene X seven eight nine two four zero one C.","lang":"es","expect":[{"kind":"es_nie","span":[33,71]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-uk_nhs-01","text":"Example: 7626006968","lang":"en","expect":[{"kind":"uk_nhs","span":[9,19]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-02","text":"For the test form, use 8839738789.","lang":"en","expect":[{"kind":"uk_nhs","span":[23,33]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-03","text":"`162-628-913-1`","lang":"en","expect":[{"kind":"uk_nhs","span":[1,14]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-uk_nhs-04","text":"La muestra ficticia es four four one three five seven five six three six.","lang":"es","expect":[{"kind":"uk_nhs","span":[23,72]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-uk_nhs-05","text":"The parser should find too won siks too fore thre eigt nien fore won here.","lang":"en","expect":[{"kind":"uk_nhs","span":[23,68]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-uk_nhs-06","text":"\n```text\n9 zero 4 one 9 zero 5 nine 5 two\n```","lang":"en","expect":[{"kind":"uk_nhs","span":[9,41]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-uk_nhs-07","text":"Copy this made-up value: 4180263939","lang":"en","expect":[{"kind":"uk_nhs","span":[25,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-08","text":"Test case value = 5079681764","lang":"en","expect":[{"kind":"uk_nhs","span":[18,28]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-09","text":"I typed 2703951345 in the mock form.","lang":"en","expect":[{"kind":"uk_nhs","span":[8,18]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-10","text":"El formulario de prueba contiene 4524473548.","lang":"es","expect":[{"kind":"uk_nhs","span":[33,43]}],"style":["digits","spanish","in_sentence"]}
+{"id":"pos-uk_nhs-11","text":"Example: 809-793-508-2","lang":"en","expect":[{"kind":"uk_nhs","span":[9,22]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-uk_nhs-12","text":"For the test form, use four one eight five zero seven zero one four four.","lang":"en","expect":[{"kind":"uk_nhs","span":[23,72]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-uk_nhs-13","text":"`eigt siks siks zoro eigt nien nien eigt sevn thre`","lang":"en","expect":[{"kind":"uk_nhs","span":[1,50]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-uk_nhs-14","text":"La muestra ficticia es 3 six 2 two 1 two 4 one 2 one.","lang":"es","expect":[{"kind":"uk_nhs","span":[23,52]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-uk_nhs-15","text":"The parser should find 6324603083 here.","lang":"en","expect":[{"kind":"uk_nhs","span":[23,33]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-16","text":"\n```text\n1684372321\n```","lang":"en","expect":[{"kind":"uk_nhs","span":[9,19]}],"style":["digits","code_block"]}
+{"id":"pos-uk_nhs-17","text":"Copy this made-up value: 3138871097","lang":"en","expect":[{"kind":"uk_nhs","span":[25,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-18","text":"Test case value = 2721481010","lang":"en","expect":[{"kind":"uk_nhs","span":[18,28]}],"style":["digits","in_sentence"]}
+{"id":"pos-uk_nhs-19","text":"I typed 185-123-106-4 in the mock form.","lang":"en","expect":[{"kind":"uk_nhs","span":[8,21]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-uk_nhs-20","text":"El formulario de prueba contiene three two nine seven one one six eight five four.","lang":"es","expect":[{"kind":"uk_nhs","span":[33,81]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-uk_ni-01","text":"Example: AB935653C","lang":"en","expect":[{"kind":"uk_ni","span":[9,18]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-02","text":"For the test form, use AB248576D.","lang":"en","expect":[{"kind":"uk_ni","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-03","text":"`AB152-481D`","lang":"en","expect":[{"kind":"uk_ni","span":[1,11]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-uk_ni-04","text":"La muestra ficticia es AB eight six five two five zero C.","lang":"es","expect":[{"kind":"uk_ni","span":[23,56]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-uk_ni-05","text":"The parser should find AB eigt thre eigt fiv fore zoro C here.","lang":"en","expect":[{"kind":"uk_ni","span":[23,56]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-uk_ni-06","text":"\n```text\nAB1 nine 1 one 5 six A\n```","lang":"en","expect":[{"kind":"uk_ni","span":[9,31]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-uk_ni-07","text":"Copy this made-up value: AB946974C","lang":"en","expect":[{"kind":"uk_ni","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-08","text":"Test case value = AB827183B","lang":"en","expect":[{"kind":"uk_ni","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-09","text":"I typed AB198108C in the mock form.","lang":"en","expect":[{"kind":"uk_ni","span":[8,17]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-10","text":"El formulario de prueba contiene AB844949B.","lang":"es","expect":[{"kind":"uk_ni","span":[33,42]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-uk_ni-11","text":"Example: AB122-606D","lang":"en","expect":[{"kind":"uk_ni","span":[9,19]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-uk_ni-12","text":"For the test form, use AB one three eight seven one six B.","lang":"en","expect":[{"kind":"uk_ni","span":[23,57]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-uk_ni-13","text":"`AB won eigt fiv zoro won eigt D`","lang":"en","expect":[{"kind":"uk_ni","span":[1,32]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-uk_ni-14","text":"La muestra ficticia es AB4 one 6 three 3 seven A.","lang":"es","expect":[{"kind":"uk_ni","span":[23,48]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-uk_ni-15","text":"The parser should find AB034182A here.","lang":"en","expect":[{"kind":"uk_ni","span":[23,32]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-16","text":"\n```text\nAB057112D\n```","lang":"en","expect":[{"kind":"uk_ni","span":[9,18]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-uk_ni-17","text":"Copy this made-up value: AB359224A","lang":"en","expect":[{"kind":"uk_ni","span":[25,34]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-18","text":"Test case value = AB601499C","lang":"en","expect":[{"kind":"uk_ni","span":[18,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-uk_ni-19","text":"I typed AB845-000C in the mock form.","lang":"en","expect":[{"kind":"uk_ni","span":[8,18]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-uk_ni-20","text":"El formulario de prueba contiene AB zero eight seven five four nine B.","lang":"es","expect":[{"kind":"uk_ni","span":[33,69]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-aadhaar-01","text":"Example: 240376949398","lang":"en","expect":[{"kind":"aadhaar","span":[9,21]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-02","text":"For the test form, use 239064051827.","lang":"en","expect":[{"kind":"aadhaar","span":[23,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-03","text":"`232-949-031-043`","lang":"en","expect":[{"kind":"aadhaar","span":[1,16]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-aadhaar-04","text":"La muestra ficticia es two eight six five five nine zero one eight four zero six.","lang":"es","expect":[{"kind":"aadhaar","span":[23,80]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-aadhaar-05","text":"The parser should find too sevn siks siks thre zoro thre siks thre fiv nien won here.","lang":"en","expect":[{"kind":"aadhaar","span":[23,79]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-aadhaar-06","text":"\n```text\n2 nine 2 six 5 zero 5 four 2 eight 4 five\n```","lang":"en","expect":[{"kind":"aadhaar","span":[9,50]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-aadhaar-07","text":"Copy this made-up value: 289057154904","lang":"en","expect":[{"kind":"aadhaar","span":[25,37]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-08","text":"Test case value = 215885983856","lang":"en","expect":[{"kind":"aadhaar","span":[18,30]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-09","text":"I typed 251472578205 in the mock form.","lang":"en","expect":[{"kind":"aadhaar","span":[8,20]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-10","text":"El formulario de prueba contiene 204349108957.","lang":"es","expect":[{"kind":"aadhaar","span":[33,45]}],"style":["digits","spanish","in_sentence"]}
+{"id":"pos-aadhaar-11","text":"Example: 245-741-767-598","lang":"en","expect":[{"kind":"aadhaar","span":[9,24]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-aadhaar-12","text":"For the test form, use two four five three two five eight two four three zero five.","lang":"en","expect":[{"kind":"aadhaar","span":[23,82]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-aadhaar-13","text":"`too eigt eigt won fiv thre nien zoro too eigt zoro zoro`","lang":"en","expect":[{"kind":"aadhaar","span":[1,56]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-aadhaar-14","text":"La muestra ficticia es 2 five 5 five 6 three 0 four 5 six 4 two.","lang":"es","expect":[{"kind":"aadhaar","span":[23,63]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-aadhaar-15","text":"The parser should find 277217910494 here.","lang":"en","expect":[{"kind":"aadhaar","span":[23,35]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-16","text":"\n```text\n244414524146\n```","lang":"en","expect":[{"kind":"aadhaar","span":[9,21]}],"style":["digits","code_block"]}
+{"id":"pos-aadhaar-17","text":"Copy this made-up value: 264623183176","lang":"en","expect":[{"kind":"aadhaar","span":[25,37]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-18","text":"Test case value = 261970235358","lang":"en","expect":[{"kind":"aadhaar","span":[18,30]}],"style":["digits","in_sentence"]}
+{"id":"pos-aadhaar-19","text":"I typed 207-696-858-394 in the mock form.","lang":"en","expect":[{"kind":"aadhaar","span":[8,23]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-aadhaar-20","text":"El formulario de prueba contiene two five five nine five seven zero eight five zero six five.","lang":"es","expect":[{"kind":"aadhaar","span":[33,92]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-au_tfn-01","text":"Example: 816210328","lang":"en","expect":[{"kind":"au_tfn","span":[9,18]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-02","text":"For the test form, use 058773601.","lang":"en","expect":[{"kind":"au_tfn","span":[23,32]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-03","text":"`007-010-280`","lang":"en","expect":[{"kind":"au_tfn","span":[1,12]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-au_tfn-04","text":"La muestra ficticia es five eight one three eight five six nine five.","lang":"es","expect":[{"kind":"au_tfn","span":[23,68]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-au_tfn-05","text":"The parser should find zoro won fore sevn zoro fore siks zoro won here.","lang":"en","expect":[{"kind":"au_tfn","span":[23,65]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-au_tfn-06","text":"\n```text\n3 nine 1 zero 7 five 7 eight 0\n```","lang":"en","expect":[{"kind":"au_tfn","span":[9,39]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-au_tfn-07","text":"Copy this made-up value: 765589913","lang":"en","expect":[{"kind":"au_tfn","span":[25,34]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-08","text":"Test case value = 064807868","lang":"en","expect":[{"kind":"au_tfn","span":[18,27]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-09","text":"I typed 735781077 in the mock form.","lang":"en","expect":[{"kind":"au_tfn","span":[8,17]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-10","text":"El formulario de prueba contiene 799537839.","lang":"es","expect":[{"kind":"au_tfn","span":[33,42]}],"style":["digits","spanish","in_sentence"]}
+{"id":"pos-au_tfn-11","text":"Example: 072-058-952","lang":"en","expect":[{"kind":"au_tfn","span":[9,20]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-au_tfn-12","text":"For the test form, use five nine eight two one eight five three seven.","lang":"en","expect":[{"kind":"au_tfn","span":[23,69]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-au_tfn-13","text":"`sevn eigt nien fore siks nien siks zoro won`","lang":"en","expect":[{"kind":"au_tfn","span":[1,44]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-au_tfn-14","text":"La muestra ficticia es 4 zero 4 two 4 nine 2 three 7.","lang":"es","expect":[{"kind":"au_tfn","span":[23,52]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-au_tfn-15","text":"The parser should find 865075497 here.","lang":"en","expect":[{"kind":"au_tfn","span":[23,32]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-16","text":"\n```text\n587090098\n```","lang":"en","expect":[{"kind":"au_tfn","span":[9,18]}],"style":["digits","code_block"]}
+{"id":"pos-au_tfn-17","text":"Copy this made-up value: 946113439","lang":"en","expect":[{"kind":"au_tfn","span":[25,34]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-18","text":"Test case value = 765334205","lang":"en","expect":[{"kind":"au_tfn","span":[18,27]}],"style":["digits","in_sentence"]}
+{"id":"pos-au_tfn-19","text":"I typed 233-942-899 in the mock form.","lang":"en","expect":[{"kind":"au_tfn","span":[8,19]}],"style":["digits","spaced","dashed","in_sentence"]}
+{"id":"pos-au_tfn-20","text":"El formulario de prueba contiene zero two five six four three two eight six.","lang":"es","expect":[{"kind":"au_tfn","span":[33,75]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-mx_curp-01","text":"Example: MOCK010101MNEFDG08","lang":"en","expect":[{"kind":"mx_curp","span":[9,27]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-02","text":"For the test form, use TEST010101HNEGFD63.","lang":"en","expect":[{"kind":"mx_curp","span":[23,41]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-03","text":"`TEST010-101HNEGGD77`","lang":"en","expect":[{"kind":"mx_curp","span":[1,20]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-mx_curp-04","text":"La muestra ficticia es MOCK zero one zero one zero one MNEFGG six four.","lang":"es","expect":[{"kind":"mx_curp","span":[23,70]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-mx_curp-05","text":"The parser should find MOCK zoro won zoro won zoro won HNEDGF zoro nien here.","lang":"en","expect":[{"kind":"mx_curp","span":[23,71]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-mx_curp-06","text":"\n```text\nTEST0 one 0 one 0 one MNEFFB5 six\n```","lang":"en","expect":[{"kind":"mx_curp","span":[9,42]}],"style":["digits","spaced","mixed","code_block"]}
+{"id":"pos-mx_curp-07","text":"Copy this made-up value: BASH010101HNEBBD27","lang":"en","expect":[{"kind":"mx_curp","span":[25,43]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-08","text":"Test case value = TEST010101MNEBDG67","lang":"en","expect":[{"kind":"mx_curp","span":[18,36]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-09","text":"I typed BASH010101MNEBFB01 in the mock form.","lang":"en","expect":[{"kind":"mx_curp","span":[8,26]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-10","text":"El formulario de prueba contiene TEST010101MNEGFG22.","lang":"es","expect":[{"kind":"mx_curp","span":[33,51]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-mx_curp-11","text":"Example: BASH010-101MNEBCF51","lang":"en","expect":[{"kind":"mx_curp","span":[9,28]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-mx_curp-12","text":"For the test form, use BASH zero one zero one zero one HNEDBD six nine.","lang":"en","expect":[{"kind":"mx_curp","span":[23,70]}],"style":["spaced","number_words","in_sentence"]}
+{"id":"pos-mx_curp-13","text":"`TEST zoro won zoro won zoro won HNEFDF too eigt`","lang":"en","expect":[{"kind":"mx_curp","span":[1,48]}],"style":["spaced","misspelled","in_sentence"]}
+{"id":"pos-mx_curp-14","text":"La muestra ficticia es BASH0 one 0 one 0 one MNEFGF1 three.","lang":"es","expect":[{"kind":"mx_curp","span":[23,58]}],"style":["digits","spaced","mixed","spanish","in_sentence"]}
+{"id":"pos-mx_curp-15","text":"The parser should find BASH010101HNEDDF81 here.","lang":"en","expect":[{"kind":"mx_curp","span":[23,41]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-16","text":"\n```text\nTEST010101HNEGBB49\n```","lang":"en","expect":[{"kind":"mx_curp","span":[9,27]}],"style":["digits","mixed","code_block"]}
+{"id":"pos-mx_curp-17","text":"Copy this made-up value: MOCK010101MNEDGD21","lang":"en","expect":[{"kind":"mx_curp","span":[25,43]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-18","text":"Test case value = MOCK010101HNEGDG95","lang":"en","expect":[{"kind":"mx_curp","span":[18,36]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-mx_curp-19","text":"I typed TEST010-101HNEDCG45 in the mock form.","lang":"en","expect":[{"kind":"mx_curp","span":[8,27]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-mx_curp-20","text":"El formulario de prueba contiene MOCK zero one zero one zero one MNECBD four two.","lang":"es","expect":[{"kind":"mx_curp","span":[33,80]}],"style":["spaced","number_words","spanish","in_sentence"]}
+{"id":"pos-bip39_seed-01","text":"Example: august enrich rice weird iron extend dress repair wide base slush culture","lang":"en","expect":[{"kind":"bip39_seed","span":[9,82]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-02","text":"For the test form, use apple super december fire amused april like come post wheat any odor.","lang":"en","expect":[{"kind":"bip39_seed","span":[23,91]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-03","text":"`input reopen random indicate recycle anger place gadget alley bundle rack bid`","lang":"en","expect":[{"kind":"bip39_seed","span":[1,78]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-04","text":"La muestra ficticia es frog fire violin lamp wink cute tiger ostrich during enroll address wish.","lang":"es","expect":[{"kind":"bip39_seed","span":[23,95]}],"style":["spaced","spanish","in_sentence"]}
+{"id":"pos-bip39_seed-05","text":"The parser should find space route attend category almost dog shell coffee brush solid until visa here.","lang":"en","expect":[{"kind":"bip39_seed","span":[23,97]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-06","text":"\n```text\nrobot impact pill tent radio habit opinion hedgehog style afford ignore wife\n```","lang":"en","expect":[{"kind":"bip39_seed","span":[9,85]}],"style":["spaced","code_block"]}
+{"id":"pos-bip39_seed-07","text":"Copy this made-up value: auction awake mind behave afraid book denial good soon notable recycle virtual","lang":"en","expect":[{"kind":"bip39_seed","span":[25,103]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-08","text":"Test case value = buyer guilt soap someone zero thank idea advance addict stage tomorrow trophy","lang":"en","expect":[{"kind":"bip39_seed","span":[18,95]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-09","text":"I typed timber rhythm pen rubber category grace fix program caution track sausage plug in the mock form.","lang":"en","expect":[{"kind":"bip39_seed","span":[8,86]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-10","text":"El formulario de prueba contiene sand tone region lecture cannon surface foam snow panic team convince method.","lang":"es","expect":[{"kind":"bip39_seed","span":[33,109]}],"style":["spaced","spanish","in_sentence"]}
+{"id":"pos-bip39_seed-11","text":"Example: sentence congress betray siege cute notice stomach treat snake balance silver tank","lang":"en","expect":[{"kind":"bip39_seed","span":[9,91]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-12","text":"For the test form, use insect climb paper machine disease illegal balance mother vote primary team diet.","lang":"en","expect":[{"kind":"bip39_seed","span":[23,103]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-13","text":"`remove damage door pledge dial love miss debate relax oil force total`","lang":"en","expect":[{"kind":"bip39_seed","span":[1,70]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-14","text":"La muestra ficticia es used trap worth solve ship gaze injury float cruise anxiety gown room.","lang":"es","expect":[{"kind":"bip39_seed","span":[23,92]}],"style":["spaced","spanish","in_sentence"]}
+{"id":"pos-bip39_seed-15","text":"The parser should find fat pass orange pony gallery slim twin begin lobster moon lounge purchase here.","lang":"en","expect":[{"kind":"bip39_seed","span":[23,96]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-16","text":"\n```text\nshrimp amount sunny develop lend basket cycle chat skin top tent aim\n```","lang":"en","expect":[{"kind":"bip39_seed","span":[9,77]}],"style":["spaced","code_block"]}
+{"id":"pos-bip39_seed-17","text":"Copy this made-up value: settle boil exile quarter oak skate basket renew dress wrap sock sleep","lang":"en","expect":[{"kind":"bip39_seed","span":[25,95]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-18","text":"Test case value = capital flavor stomach skin oblige tiny discover like tragic bundle phone shaft","lang":"en","expect":[{"kind":"bip39_seed","span":[18,97]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-19","text":"I typed kite upset deny convince soda settle canvas service crunch ocean okay very in the mock form.","lang":"en","expect":[{"kind":"bip39_seed","span":[8,82]}],"style":["spaced","in_sentence"]}
+{"id":"pos-bip39_seed-20","text":"El formulario de prueba contiene poet collect digital shrug library plug final fluid when dad spin inherit.","lang":"es","expect":[{"kind":"bip39_seed","span":[33,106]}],"style":["spaced","spanish","in_sentence"]}
+{"id":"pos-aws_access_key-01","text":"Example: AKIAIOSFODNN7EXAMPLE","lang":"en","expect":[{"kind":"aws_access_key","span":[9,29]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-aws_access_key-02","text":"For the test form, use AKIAIOSFODNN7EXAMPLE.","lang":"en","expect":[{"kind":"aws_access_key","span":[23,43]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-aws_access_key-03","text":"`AKIAIOSFODNN7EXAMPLE`","lang":"en","expect":[{"kind":"aws_access_key","span":[1,21]}],"style":["digits","mixed","in_sentence"]}
+{"id":"pos-aws_access_key-04","text":"La muestra ficticia es AKIAIOSFODNN7EXAMPLE.","lang":"es","expect":[{"kind":"aws_access_key","span":[23,43]}],"style":["digits","mixed","spanish","in_sentence"]}
+{"id":"pos-github_token_fake-01","text":"Example: ghp-EXAMPLE-NOT-A-TOKEN-73514101","lang":"en","expect":[{"kind":"github_token_fake","span":[9,41]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-02","text":"For the test form, use ghp-EXAMPLE-NOT-A-TOKEN-32888896.","lang":"en","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-03","text":"`ghp-EXAMPLE-NOT-A-TOKEN-67585999`","lang":"en","expect":[{"kind":"github_token_fake","span":[1,33]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-04","text":"La muestra ficticia es ghp-EXAMPLE-NOT-A-TOKEN-07794509.","lang":"es","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-github_token_fake-05","text":"The parser should find ghp-EXAMPLE-NOT-A-TOKEN-61664959 here.","lang":"en","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-06","text":"\n```text\nghp-EXAMPLE-NOT-A-TOKEN-08611548\n```","lang":"en","expect":[{"kind":"github_token_fake","span":[9,41]}],"style":["digits","spaced","dashed","mixed","code_block"]}
+{"id":"pos-github_token_fake-07","text":"Copy this made-up value: ghp-EXAMPLE-NOT-A-TOKEN-21355664","lang":"en","expect":[{"kind":"github_token_fake","span":[25,57]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-08","text":"Test case value = ghp-EXAMPLE-NOT-A-TOKEN-87475188","lang":"en","expect":[{"kind":"github_token_fake","span":[18,50]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-09","text":"I typed ghp-EXAMPLE-NOT-A-TOKEN-56614937 in the mock form.","lang":"en","expect":[{"kind":"github_token_fake","span":[8,40]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-10","text":"El formulario de prueba contiene ghp-EXAMPLE-NOT-A-TOKEN-79086437.","lang":"es","expect":[{"kind":"github_token_fake","span":[33,65]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-github_token_fake-11","text":"Example: ghp-EXAMPLE-NOT-A-TOKEN-79747540","lang":"en","expect":[{"kind":"github_token_fake","span":[9,41]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-12","text":"For the test form, use ghp-EXAMPLE-NOT-A-TOKEN-84923568.","lang":"en","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-13","text":"`ghp-EXAMPLE-NOT-A-TOKEN-12384820`","lang":"en","expect":[{"kind":"github_token_fake","span":[1,33]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-14","text":"La muestra ficticia es ghp-EXAMPLE-NOT-A-TOKEN-90746760.","lang":"es","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-github_token_fake-15","text":"The parser should find ghp-EXAMPLE-NOT-A-TOKEN-02177429 here.","lang":"en","expect":[{"kind":"github_token_fake","span":[23,55]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-16","text":"\n```text\nghp-EXAMPLE-NOT-A-TOKEN-11585692\n```","lang":"en","expect":[{"kind":"github_token_fake","span":[9,41]}],"style":["digits","spaced","dashed","mixed","code_block"]}
+{"id":"pos-github_token_fake-17","text":"Copy this made-up value: ghp-EXAMPLE-NOT-A-TOKEN-76566068","lang":"en","expect":[{"kind":"github_token_fake","span":[25,57]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-18","text":"Test case value = ghp-EXAMPLE-NOT-A-TOKEN-82731519","lang":"en","expect":[{"kind":"github_token_fake","span":[18,50]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-19","text":"I typed ghp-EXAMPLE-NOT-A-TOKEN-84135789 in the mock form.","lang":"en","expect":[{"kind":"github_token_fake","span":[8,40]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-github_token_fake-20","text":"El formulario de prueba contiene ghp-EXAMPLE-NOT-A-TOKEN-14601241.","lang":"es","expect":[{"kind":"github_token_fake","span":[33,65]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-openai_key_fake-01","text":"Example: sk:example-not-a-key-00507348","lang":"en","expect":[{"kind":"openai_key_fake","span":[9,38]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-02","text":"For the test form, use sk:example-not-a-key-55737062.","lang":"en","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-03","text":"`sk:example-not-a-key-53812929`","lang":"en","expect":[{"kind":"openai_key_fake","span":[1,30]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-04","text":"La muestra ficticia es sk:example-not-a-key-80351043.","lang":"es","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-openai_key_fake-05","text":"The parser should find sk:example-not-a-key-03358036 here.","lang":"en","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-06","text":"\n```text\nsk:example-not-a-key-99711820\n```","lang":"en","expect":[{"kind":"openai_key_fake","span":[9,38]}],"style":["digits","spaced","dashed","mixed","code_block"]}
+{"id":"pos-openai_key_fake-07","text":"Copy this made-up value: sk:example-not-a-key-76818028","lang":"en","expect":[{"kind":"openai_key_fake","span":[25,54]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-08","text":"Test case value = sk:example-not-a-key-11479885","lang":"en","expect":[{"kind":"openai_key_fake","span":[18,47]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-09","text":"I typed sk:example-not-a-key-60854553 in the mock form.","lang":"en","expect":[{"kind":"openai_key_fake","span":[8,37]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-10","text":"El formulario de prueba contiene sk:example-not-a-key-75714099.","lang":"es","expect":[{"kind":"openai_key_fake","span":[33,62]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-openai_key_fake-11","text":"Example: sk:example-not-a-key-60131679","lang":"en","expect":[{"kind":"openai_key_fake","span":[9,38]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-12","text":"For the test form, use sk:example-not-a-key-94654229.","lang":"en","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-13","text":"`sk:example-not-a-key-03561264`","lang":"en","expect":[{"kind":"openai_key_fake","span":[1,30]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-14","text":"La muestra ficticia es sk:example-not-a-key-91008079.","lang":"es","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"pos-openai_key_fake-15","text":"The parser should find sk:example-not-a-key-71087620 here.","lang":"en","expect":[{"kind":"openai_key_fake","span":[23,52]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-16","text":"\n```text\nsk:example-not-a-key-90376298\n```","lang":"en","expect":[{"kind":"openai_key_fake","span":[9,38]}],"style":["digits","spaced","dashed","mixed","code_block"]}
+{"id":"pos-openai_key_fake-17","text":"Copy this made-up value: sk:example-not-a-key-77006059","lang":"en","expect":[{"kind":"openai_key_fake","span":[25,54]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-18","text":"Test case value = sk:example-not-a-key-80800962","lang":"en","expect":[{"kind":"openai_key_fake","span":[18,47]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-19","text":"I typed sk:example-not-a-key-03668848 in the mock form.","lang":"en","expect":[{"kind":"openai_key_fake","span":[8,37]}],"style":["digits","spaced","dashed","mixed","in_sentence"]}
+{"id":"pos-openai_key_fake-20","text":"El formulario de prueba contiene sk:example-not-a-key-26571343.","lang":"es","expect":[{"kind":"openai_key_fake","span":[33,62]}],"style":["digits","spaced","dashed","mixed","spanish","in_sentence"]}
+{"id":"neg-001","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-002","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-003","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-004","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-005","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-006","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-007","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-008","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-009","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-010","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-011","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-012","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-013","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-014","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-015","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-016","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-017","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-018","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-019","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-020","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-021","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-022","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-023","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-024","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-025","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-026","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-027","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-028","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-029","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-030","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-031","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-032","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-033","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-034","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-035","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-036","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-037","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-038","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-039","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-040","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-041","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-042","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-043","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-044","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-045","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-046","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-047","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-048","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-049","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-050","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-051","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-052","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-053","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-054","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-055","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-056","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-057","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-058","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-059","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-060","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-061","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-062","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-063","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-064","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-065","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-066","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-067","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-068","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-069","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-070","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-071","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-072","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-073","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-074","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-075","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-076","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-077","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-078","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-079","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-080","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-081","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-082","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-083","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-084","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-085","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-086","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-087","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-088","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-089","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-090","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-091","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-092","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-093","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-094","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-095","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-096","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-097","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-098","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-099","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-100","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-101","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-102","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-103","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-104","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-105","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-106","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-107","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-108","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-109","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-110","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-111","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-112","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-113","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-114","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-115","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-116","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-117","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-118","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-119","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-120","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-121","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-122","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-123","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-124","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-125","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-126","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-127","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-128","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-129","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-130","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-131","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-132","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-133","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-134","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-135","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-136","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-137","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-138","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-139","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-140","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-141","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-142","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-143","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-144","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-145","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-146","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-147","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-148","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-149","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-150","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-151","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-152","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-153","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-154","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-155","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-156","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-157","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-158","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-159","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-160","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-161","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-162","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-163","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-164","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-165","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-166","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-167","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-168","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-169","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-170","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-171","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-172","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-173","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-174","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-175","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-176","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-177","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-178","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-179","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-180","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-181","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-182","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-183","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-184","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-185","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-186","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-187","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-188","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-189","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-190","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-191","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-192","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-193","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-194","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-195","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-196","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-197","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-198","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-199","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-200","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-201","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-202","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-203","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-204","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-205","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-206","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-207","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-208","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-209","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-210","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-211","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-212","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-213","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-214","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-215","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-216","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-217","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-218","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-219","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-220","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-221","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-222","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-223","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-224","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-225","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-226","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-227","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-228","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-229","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-230","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-231","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-232","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-233","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-234","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-235","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-236","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-237","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-238","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-239","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-240","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-241","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-242","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-243","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-244","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-245","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-246","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-247","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-248","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-249","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-250","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-251","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-252","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-253","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-254","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-255","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-256","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-257","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-258","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-259","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-260","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-261","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-262","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-263","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-264","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-265","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-266","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-267","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-268","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-269","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-270","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-271","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-272","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-273","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-274","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-275","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-276","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-277","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-278","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-279","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-280","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-281","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-282","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-283","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-284","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-285","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-286","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-287","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-288","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-289","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-290","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-291","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-292","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-293","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-294","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-295","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-296","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-297","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-298","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-299","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-300","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-301","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-302","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-303","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-304","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-305","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-306","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-307","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-308","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-309","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-310","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-311","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-312","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-313","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-314","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-315","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-316","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-317","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-318","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-319","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-320","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-321","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-322","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-323","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-324","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-325","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-326","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-327","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-328","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-329","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-330","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-331","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-332","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-333","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-334","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-335","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-336","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-337","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-338","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-339","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-340","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}
+{"id":"neg-341","text":"Test note: 4111 1111 1111 1112","lang":"en","expect":[],"style":["in_sentence","negative","wrong_Luhn_digit"]}
+{"id":"neg-342","text":"\n```text\nDE89370400440532013002\n```","lang":"en","expect":[],"style":["code_block","negative","wrong_IBAN_check_digit"]}
+{"id":"neg-343","text":"La prueba contiene 666-12-3456.","lang":"es","expect":[],"style":["spanish","negative","reserved_SSN_area"]}
+{"id":"neg-344","text":"202-555-01999","lang":"en","expect":[],"style":["in_sentence","negative","too_long"]}
+{"id":"neg-345","text":"Test note: sample.user@not-a-domain.invalid","lang":"en","expect":[],"style":["in_sentence","negative","invalid_email_domain"]}
+{"id":"neg-346","text":"\n```text\n12 Main Street, Testville, ZZ 00000\n```","lang":"en","expect":[],"style":["code_block","negative","ordinary_street_name"]}
+{"id":"neg-347","text":"La prueba contiene 12345678A.","lang":"es","expect":[],"style":["spanish","negative","wrong_DNI_check_letter"]}
+{"id":"neg-348","text":"X1234567A","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NIE_check_letter"]}
+{"id":"neg-349","text":"Test note: 9434765918","lang":"en","expect":[],"style":["in_sentence","negative","wrong_NHS_check_digit"]}
+{"id":"neg-350","text":"\n```text\nAB123456C\n```","lang":"en","expect":[],"style":["code_block","negative","invalid_NI_suffix"]}
+{"id":"neg-351","text":"La prueba contiene 234567890123.","lang":"es","expect":[],"style":["spanish","negative","wrong_Verhoeff_check_digit"]}
+{"id":"neg-352","text":"123456783","lang":"en","expect":[],"style":["in_sentence","negative","wrong_TFN_checksum"]}
+{"id":"neg-353","text":"Test note: XXXX000101HXXABC00","lang":"en","expect":[],"style":["in_sentence","negative","wrong_CURP_check_digit"]}
+{"id":"neg-354","text":"\n```text\nthis is random English and not a mnemonic phrase at all\n```","lang":"en","expect":[],"style":["code_block","negative","not_a_seed_phrase"]}
+{"id":"neg-355","text":"La prueba contiene AKIA.","lang":"es","expect":[],"style":["spanish","negative","placeholder_key"]}
+{"id":"neg-356","text":"ghp_","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-357","text":"Test note: sk-","lang":"en","expect":[],"style":["in_sentence","negative","placeholder_key"]}
+{"id":"neg-358","text":"\n```text\nORD-2026-00412\n```","lang":"en","expect":[],"style":["code_block","negative","order_number"]}
+{"id":"neg-359","text":"La prueba contiene 2026-10-17.","lang":"es","expect":[],"style":["spanish","negative","date"]}
+{"id":"neg-360","text":"version 4.12.0 build 77","lang":"en","expect":[],"style":["in_sentence","negative","version_string"]}

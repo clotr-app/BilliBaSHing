@@ -1,0 +1,9 @@
+﻿cff-version: 1.2.0
+message: "Please cite this dataset using the metadata below."
+title: "BilliBaSHing: made-up test text for privacy and secret detectors"
+authors:
+  - alias: "BilliamBaSH"
+version: 0.2.0
+type: dataset
+license: CC-BY-4.0
+abstract: "Reproducible synthetic English and Spanish text examples for evaluating privacy and secret detectors."
